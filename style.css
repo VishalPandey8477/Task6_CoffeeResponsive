@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Grand+Hotel:regular);
 
 .overlay {
-    height: 100%;
+    height: 90%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -17,9 +17,9 @@
 .overlay-content {
     position: relative;
     top: 25%;
-    width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 .overlay a {

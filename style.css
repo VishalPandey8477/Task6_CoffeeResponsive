@@ -164,7 +164,7 @@ body {
         margin: 0;
         padding: 0;
         width: 100%;
-        background-position: bottom, right bottom 1rem;
+        background-position: bottom, right bottom 15px;
         padding-bottom: 20%;
 
     }
@@ -182,6 +182,14 @@ body {
         padding: 0;
         padding-left: 4%;
         margin-top: 5%;
+        width: 50%;
+    }
+
+    .ctcContent span {
+        font-size: 15px;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 0;
     }
 
     .ctcHeading {
@@ -197,7 +205,7 @@ body {
         margin: 0;
         padding: 0;
         width: 90%;
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .ctcHeadline {
@@ -427,19 +435,19 @@ body {
     }
 
     .bccText {
-        padding-top: 3%;
+        /* padding-top: 3%;
         letter-spacing: 0;
         /* border: 1px solid white; */
         width: 100%;
-        text-align: center;
+        text-align: end;
+        */
     }
 
     .bccText span {
-        font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        word-spacing: 10px;
-        line-height: 1px;
+        font-size: 15px;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 0;
     }
 
 
@@ -571,6 +579,7 @@ body {
 
     .hotcoffeeContainer {
         width: 100%;
+        padding-bottom: 15%;
     }
 
     .hccInside {
@@ -645,11 +654,10 @@ body {
     }
 
     .hccText span {
-        font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        word-spacing: 10px;
-        line-height: 1px;
+        font-size: 15px;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 0;
     }
 
 }
@@ -850,11 +858,10 @@ body {
     }
 
     .wccText span {
-        font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        word-spacing: 10px;
-        line-height: 1px;
+        font-size: 15px;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 0;
     }
 }
 
@@ -1114,14 +1121,20 @@ body {
         padding: 0;
         width: 100%;
         padding-top: 10%;
-        padding-bottom: 16%;
+        padding-bottom: 20%;
     }
 
     .crcHeading {
         /* border: 1px solid pink; */
-        font-size: 4rem;
+
         text-align: center;
         width: 100%;
+    }
+
+    .crcHeading span {
+        margin: 0;
+        padding: 0;
+        font-size: 3.7rem;
     }
 
     .crcInside {
@@ -1487,6 +1500,7 @@ body {
 
     .ourbranchesContainer {
         width: 100%;
+        padding-bottom: 30%;
     }
 
     .obcInside {

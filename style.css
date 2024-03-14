@@ -1,0 +1,1677 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Grand+Hotel:regular);
+
+* {
+    color: white;
+
+}
+
+body {
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    padding-top: 3%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+
+.items {
+    /* border: 1px solid pink; */
+    display: flex;
+
+
+}
+
+.items li {
+    list-style-type: none;
+    padding-left: 14%;
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.logo {
+    /* border: 1px solid gray; */
+    width: 13rem;
+    padding-right: 5%;
+}
+
+
+.logo img {
+    width: 100%;
+}
+
+
+.coffeetimeContainer {
+    background-image: url(images/first_bottom.png), url(images/cups.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 55%;
+    background-position: bottom, right bottom 4rem;
+    /* border: 1px solid white; */
+    width: 100%;
+    padding-bottom: 16%;
+    position: relative;
+}
+
+
+.ctcHeading {
+
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+
+.ctcHeading span {
+    /* border: 1px solid white; */
+    font-size: 11rem;
+    font-family: "Grand Hotel";
+}
+
+
+.ctcHeadline {
+    /* border: 1px solid white; */
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+
+.ctcHeadline span {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+
+.ctcContent {
+    padding-left: 4%;
+    width: 34%;
+    padding-bottom: 2%;
+}
+
+.ctcContent span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.4px;
+
+
+}
+
+
+.ctcButton {
+    padding-left: 4%;
+}
+
+.ctcButton button {
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 1% 3%;
+    border: 2px solid #29a19c;
+    background-color: #29a19c;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+
+.firstsvg {
+    position: absolute;
+    top: 0.6%;
+    right: 37%;
+
+}
+
+.secondsvg {
+    position: absolute;
+    top: 34%;
+    right: 50%;
+}
+
+.thirdsvg {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+
+.fourthsvg {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+
+@media screen and (max-width:768px) {
+
+
+
+
+    .navBar {
+        display: none;
+    }
+
+    .ctcHeadline {
+        display: none;
+    }
+
+    .coffeetimeContainer {
+        /* border: 1px solid blue; */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-position: bottom, right bottom 1rem;
+        padding-bottom: 20%;
+
+    }
+
+    .firstsvg,
+    .secondsvg,
+    .thirdsvg,
+    .fourthsvg {
+        display: none;
+    }
+
+
+    .ctcContent {
+        margin: 0;
+        padding: 0;
+        padding-left: 4%;
+        margin-top: 5%;
+    }
+
+    .ctcHeading {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .ctcHeading span {
+        font-size: 6rem;
+    }
+
+    .ctcHeadline {
+        /* border: 1px solid white; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .ctcHeadline span {
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 1px;
+        font-size: 0.2rem;
+        font-weight: 600;
+    }
+
+
+
+    .ctcButton {
+        padding: 0;
+        margin: 0;
+        margin-top: 2%;
+        padding-left: 4%;
+    }
+
+    .ctcButton button {
+        font-size: 1rem;
+        font-weight: 800;
+        padding: 1% 2%;
+        border: 2px solid #29a19c;
+        background-color: #29a19c;
+        border-radius: 20px;
+        letter-spacing: 1px;
+    }
+
+}
+
+
+/* --------------------------------------Black Coffee Part----------------------------------------- */
+
+
+
+.blackcoffeesContainer {
+    /* border: 1px solid red; */
+    background-color: #29a19c;
+    position: relative;
+}
+
+.bccInside {
+    padding-top: 2%;
+    /* border: 1px solid white; */
+    background-color: #29a19c;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 13%;
+}
+
+
+.bccLeft {
+    /* border: 1px solid pink; */
+    width: 60%;
+}
+
+.bccHeading {
+    padding-top: 35%;
+    width: 100%;
+    text-align: start;
+    padding-bottom: 32%;
+}
+
+.bccHeading span {
+    font-family: "Grand Hotel";
+    font-size: 9rem;
+    line-height: 6rem;
+}
+
+.bccButton {
+    width: 100%;
+    padding-left: 6%;
+    text-align: start;
+}
+
+.bccButton button {
+    border: 2px solid #29a19c;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 3% 10%;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    background-color: #222831;
+
+}
+
+
+.bccRight {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+.bccText {
+    padding-top: 3%;
+    /* border: 1px solid white; */
+    width: 75%;
+    text-align: end;
+}
+
+.bccText span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 2rem;
+}
+
+
+.fifthsvg {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+
+}
+
+.sixthsvg {
+    position: absolute;
+    top: 0;
+    right: 6%;
+
+}
+
+.seventhsvg {
+    position: absolute;
+    left: 40%;
+    bottom: 35%;
+}
+
+.eightsvg {
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+}
+
+.ninesvg {
+    position: absolute;
+    left: 15%;
+    bottom: 2%;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .blackcoffeesContainer {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .fifthsvg,
+    .sixthsvg,
+    .seventhsvg,
+    .eightsvg,
+    .ninesvg {
+        display: none;
+    }
+
+    .bccInside {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+    .bccLeft {
+        width: 50%;
+        /* border: 1px solid pink; */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bccHeading {
+        margin: 0;
+        padding: 0;
+        padding-top: 50%;
+        text-align: center;
+    }
+
+    .bccHeading span {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    .bccButton {
+        padding: 0;
+        margin: 0;
+        margin-top: 2rem;
+        text-align: center;
+
+    }
+
+    .bccButton button {
+        border: 2px solid #29a19c;
+        font-size: 1rem;
+        font-weight: 800;
+        padding: 3% 10%;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        background-color: #222831;
+
+    }
+
+
+    .bccRight {
+        width: 60%;
+        padding-right: 2%;
+    }
+
+
+    .bccImage {
+        width: 100%;
+    }
+
+    .bccImage img {
+        width: 100%;
+    }
+
+    .bccText {
+        padding-top: 3%;
+        /* border: 1px solid white; */
+        width: 100%;
+        text-align: end;
+    }
+
+    .bccText span {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        line-height: 1px;
+    }
+
+
+
+
+}
+
+
+
+/* -----------------------------------------------Hot Coffee-------------------------------------------- */
+
+
+.hotcoffeeContainer {
+    background-image: url(images/hcc_top.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    padding-bottom: 2%;
+    /* background-color: #222831; */
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.hccInside {
+    padding-top: 15%;
+    /* border: 1px solid white; */
+    /* background-color: #222831; */
+    display: flex;
+    margin-left: 10%;
+    margin-right: 13%;
+}
+
+
+
+
+.hccLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+
+
+.hccText {
+    padding-top: 3%;
+    /* border: 1px solid white; */
+    width: 75%;
+    text-align: start;
+}
+
+.hccText span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 2rem;
+
+}
+
+
+.hccRight {
+    /* border: 1px solid pink; */
+    width: 60%;
+
+}
+
+.hccHeading {
+    padding-top: 60%;
+    width: 100%;
+    text-align: end;
+    padding-bottom: 20%;
+}
+
+.hccHeading span {
+    font-family: "Grand Hotel";
+    font-size: 9rem;
+    line-height: 6rem;
+}
+
+.hccButton {
+    width: 100%;
+    text-align: end;
+}
+
+.hccButton button {
+    border: 2px solid #222831;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 3% 10%;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    background-color: #29a19c;
+}
+
+
+.tensvg {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+.elevensvg {
+    position: absolute;
+    top: 35%;
+    right: 40%;
+}
+
+.twelvesvg {
+    position: absolute;
+    bottom: 35%;
+    right: 5%;
+}
+
+.thirteensvg {
+    position: absolute;
+    bottom: 0%;
+    right: 32%;
+}
+
+@media screen and (max-width:768px) {
+
+    .tensvg,
+    .elevensvg,
+    .twelvesvg,
+    .thirteensvg {
+        display: none;
+    }
+
+    .hotcoffeeContainer {
+        width: 100%;
+    }
+
+    .hccInside {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-top: 20%;
+    }
+
+
+    .hccLeft {
+        width: 60%;
+        /* border: 1px solid pink; */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2%;
+    }
+
+    .hccHeading {
+        margin: 0;
+        padding: 0;
+        padding-top: 50%;
+        text-align: center;
+    }
+
+    .hccHeading span {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    .hccButton {
+        padding: 0;
+        margin: 0;
+        margin-top: 2rem;
+        text-align: center;
+
+    }
+
+    .hccButton button {
+        border: 2px solid #29a19c;
+        font-size: 1rem;
+        font-weight: 800;
+        padding: 3% 10%;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        background-color: #29a19c;
+
+    }
+
+
+    .hccRight {
+        width: 60%;
+    }
+
+
+    .hccImage {
+        width: 100%;
+    }
+
+    .hccImage img {
+        width: 100%;
+    }
+
+    .hccText {
+        padding-top: 3%;
+        /* border: 1px solid white; */
+        width: 100%;
+        text-align: start;
+    }
+
+    .hccText span {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        line-height: 1px;
+    }
+
+}
+
+
+/* ---------------------------------------------White Coffees----------------------------------------------- */
+
+
+.whitecoffeeContainer {
+    position: relative;
+    /* border: 1px solid white; */
+    padding-bottom: 5%;
+}
+
+.wccInside {
+    /* border: 1px solid white; */
+    /* background-color: #29a19c; */
+    display: flex;
+    margin-left: 8%;
+    margin-right: 13%;
+    padding-top: 4%;
+
+}
+
+
+.wccLeft {
+    /* border: 1px solid pink; */
+    width: 60%;
+}
+
+.wccHeading {
+    padding-top: 35%;
+    width: 100%;
+    text-align: start;
+    padding-bottom: 20%;
+}
+
+.wccHeading span {
+    font-family: "Grand Hotel";
+    font-size: 9rem;
+    line-height: 6rem;
+}
+
+.wccButton {
+    width: 100%;
+    padding-left: 6%;
+    text-align: start;
+}
+
+.wccButton button {
+    border: 2px solid #29a19c;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 3% 10%;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    background-color: #29a19c;
+
+}
+
+
+.wccRight {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.wccText {
+    padding-top: 3%;
+    /* border: 1px solid white; */
+    width: 75%;
+    text-align: end;
+}
+
+.wccText span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 2rem;
+}
+
+
+
+.fourteensvg {
+    position: absolute;
+    top: 3%;
+    left: 20%;
+
+}
+
+.fifteensvg {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.sixteensvg {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+
+}
+
+.seventeensvg {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+
+}
+
+@media screen and (max-width:768px) {
+
+
+    .fourteensvg,
+    .fifteensvg,
+    .sixteensvg,
+    .seventeensvg {
+        display: none;
+    }
+
+    .whitecoffeeContainer {
+        /* border: 1px solid pink; */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .wccInside {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+
+
+    .wccLeft {
+        width: 50%;
+        /* border: 1px solid pink; */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wccHeading {
+        margin: 0;
+        padding: 0;
+        padding-top: 50%;
+        text-align: center;
+    }
+
+    .wccHeading span {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    .wccButton {
+        padding: 0;
+        margin: 0;
+        margin-top: 2rem;
+        text-align: center;
+
+    }
+
+    .wccButton button {
+        border: 2px solid #29a19c;
+        font-size: 1rem;
+        font-weight: 800;
+        padding: 3% 10%;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        background-color: #222831;
+
+    }
+
+
+    .wccRight {
+        width: 60%;
+        padding-right: 2%;
+    }
+
+
+    .wccImage {
+        width: 100%;
+    }
+
+    .wccImage img {
+        width: 100%;
+    }
+
+    .wccText {
+        padding-top: 3%;
+        /* border: 1px solid white; */
+        width: 100%;
+        text-align: end;
+    }
+
+    .wccText span {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        line-height: 1px;
+    }
+}
+
+
+/* --------------------------------------------------Voucher ------------------------------------------------- */
+
+.voucherContainer {
+    /* border: 1px solid white; */
+    margin-top: -1%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+.vccHeading span {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    font-family: "Grand Hotel";
+    font-size: 9rem;
+
+
+}
+
+.vccButton {
+    width: 22.9%;
+    /* border: 1px solid wheat; */
+}
+
+.vccButton button {
+    border: 2px solid #29a19c;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 3% 10%;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    background-color: #29a19c;
+
+}
+
+
+.eightteensvg {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+
+}
+
+.nineteensvg {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+}
+
+.twentysvg {
+    position: absolute;
+    bottom: 2%;
+    right: 7%;
+}
+
+@media screen and (max-width:768px) {
+    .voucherContainer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .eightteensvg,
+    .nineteensvg,
+    .twentysvg {
+        display: none;
+    }
+
+
+    .vccHeading {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .vccHeading span {
+        margin: 0;
+        padding: 0;
+        font-family: "Grand Hotel";
+        font-size: 4rem;
+
+    }
+
+    .vccImage {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .vccImage img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .vccButton {
+        margin: 0;
+        padding: 0;
+        width: 60%;
+        text-align: center;
+        /* border: 1px solid wheat; */
+    }
+
+    .vccButton button {
+        border: 2px solid #29a19c;
+        font-size: 0.8rem;
+        font-weight: 800;
+        padding: 3% 10%;
+        border-radius: 15px;
+        letter-spacing: 2px;
+        background-color: #29a19c;
+
+    }
+
+}
+
+
+
+
+
+
+/* --------------------------------------------------Customer Review---------------------------------------------- */
+
+.customerreviewContainer {
+    padding-top: 2%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/crcBottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    padding-bottom: 15%;
+    position: relative;
+
+}
+
+
+.crcHeading {
+    font-family: "Grand Hotel";
+    font-size: 5rem;
+    padding-bottom: 3%;
+
+}
+
+.crcInside {
+    /* border: 1px solid pink; */
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.crcLeft {
+    /* border: 1px solid whitesmoke; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crcRight {
+    /* border: 1px solid green; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crcLeftName {
+    padding-top: 4%;
+}
+
+.crcLeftName span {
+    font-family: "Grand Hotel";
+    font-size: 3rem;
+}
+
+.crcLeftText {
+    padding-top: 4%;
+    text-align: center;
+    width: 65%;
+
+}
+
+.crcLeftText span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+
+}
+
+
+.crcRightName {
+    padding-top: 4%;
+}
+
+.crcRightName span {
+    font-family: "Grand Hotel";
+    font-size: 3rem;
+}
+
+.crcRightText {
+    padding-top: 4%;
+    text-align: center;
+    width: 65%;
+}
+
+.crcRightText span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+
+}
+
+
+.twentyonesvg {
+    position: absolute;
+    top: 20%;
+}
+
+.twentytwosvg {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.twentythreesvg {
+    position: absolute;
+    top: 52%;
+    right: 5%;
+}
+
+@media screen and (max-width:768px) {
+
+    .twentyonesvg,
+    .twentytwosvg,
+    .twentythreesvg {
+        display: none;
+    }
+
+    .customerreviewContainer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 16%;
+    }
+
+    .crcHeading {
+        border: 1px solid pink;
+        font-size: 4rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .crcInside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .crcLeft {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .crcLeftImage {
+        text-align: center;
+    }
+
+    .crcLeftImage img {
+        width: 80%;
+    }
+
+    .crcLeftText {
+        padding-top: 4%;
+        text-align: center;
+        width: 90%;
+    }
+
+    .crcRight {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    .crcRightImage {
+        text-align: center;
+    }
+
+    .crcRightImage img {
+        width: 80%;
+    }
+
+    .crcRightText {
+        padding-top: 4%;
+        text-align: center;
+        width: 90%;
+    }
+
+
+
+
+}
+
+
+
+
+
+/* ---------------------------------------------------------We are Open ----------------------------------------------- */
+
+.weareopenContainer {
+    /* border: 1px solid pink; */
+    background-color: #29a19c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: -1%;
+}
+
+.wrcHeading {
+    font-family: "Grand Hotel";
+    font-size: 6rem;
+    padding-bottom: 3%;
+}
+
+
+.wrcTimeFirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.wrcTimeFirstDay {
+    text-align: center;
+}
+
+.wrcTimeFirstDay span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.wrcTimeFirstTime {
+    text-align: center;
+}
+
+.wrcTimeFirstTime span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+
+
+.wrcTimeSecond {
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrcTimeSecondDay {
+    text-align: center;
+}
+
+.wrcTimeSecondDay span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.wrcTimeSecondTime {
+    text-align: center;
+}
+
+.wrcTimeSecondTime span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+
+.twentyfoursvg {
+    position: absolute;
+    top: 0;
+    left: 10%;
+
+
+}
+
+.twentyfivesvg {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+
+}
+
+.twentysixsvg {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+}
+
+.twentysevensvg {
+    position: absolute;
+    bottom: 0;
+    right: 17%;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .twentyfoursvg,
+    .twentyfivesvg,
+    .twentysixsvg,
+    .twentysevensvg {
+        display: none;
+    }
+
+    .weareopenContainer {
+        width: 100%;
+    }
+
+    .wrcHeading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrcHeading span {
+        font-family: "Grand Hotel";
+        font-size: 4rem;
+        padding-bottom: 3%;
+
+    }
+
+    .wrcTimeFirstTime span,
+    .wrcTimeSecondTime span {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+    }
+
+    .wrcTimeSecondDay span,
+    .wrcTimeFirstDay span {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+}
+
+
+
+/* -----------------------------------------------------------Our Branch------------------------------------------------------- */
+
+.ourbranchesContainer {
+    /* border: 1px solid blue; */
+    background-image: url(images/obc_top.png), url(images/obc_bottom.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top, bottom;
+    padding-bottom: 17%;
+    position: relative;
+}
+
+.obcInside {
+    padding-top: 20%;
+    /* border: 1px solid white; */
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.obcHeading {
+    font-family: "Grand Hotel";
+    font-size: 6rem;
+    padding-bottom: 3%;
+}
+
+
+.obcCards {
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.obcCardFirst {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.obcCardFirstTag {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obcCardFirstTag img {
+    width: 50%;
+}
+
+.obcCardFirstText {
+    padding-top: 5%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 75%;
+}
+
+
+.obcCardSecond {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.obcCardSecondTag {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obcCardSecondTag img {
+    width: 50%;
+}
+
+.obcCardSecondText {
+    padding-top: 5%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 75%;
+}
+
+
+.obcCardThird {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.obcCardThirdTag {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obcCardThirdTag img {
+    width: 50%;
+}
+
+
+.obcCardThirdText {
+    padding-top: 5%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 75%;
+}
+
+
+.twentyeightsvg {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+}
+
+.twentyninesvg {
+    position: absolute;
+    top: 28%;
+    right: 8%;
+}
+
+.thirtysvg {
+    position: absolute;
+    bottom: 17%;
+    left: 32%;
+    width: 5%;
+}
+
+.thirtyonesvg {
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+    width: 4%;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .twentyeightsvg,
+    .twentyninesvg,
+    .thirtysvg,
+    .thirtyonesvg {
+        display: none;
+    }
+
+    .ourbranchesContainer {
+        width: 100%;
+    }
+
+    .obcInside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .obcHeading {
+        text-align: center;
+    }
+
+    .obcHeading span {
+        font-family: "Grand Hotel";
+        font-size: 5rem;
+        padding-bottom: 3%;
+
+    }
+
+
+    .obcCards {
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .obcCardFirst {
+        border: 1px solid #222831;
+        box-shadow: 2px 2px 10px #29a19c;
+        padding-top: 3%;
+        width: 90%;
+    }
+
+    .obcCardFirstImage,
+    .obcCardSecondImage,
+    .obcCardThirdImage {
+        width: 100%;
+    }
+
+    .obcCardFirstImage img,
+    .obcCardSecondImage img,
+    .obcCardThirdImage img {
+        width: 100%;
+    }
+
+    .obcCardSecond {
+
+        border: 1px solid #222831;
+        box-shadow: 2px 2px 10px #29a19c;
+        width: 90%;
+        padding-top: 3%;
+        margin-top: 10%;
+    }
+
+    .obcCardThird {
+        border: 1px solid #222831;
+        box-shadow: 2px 2px 10px #29a19c;
+        width: 90%;
+        padding-top: 3%;
+        margin-top: 10%;
+
+    }
+
+
+
+}
+
+
+/* ---------------------------------------------Footer----------------------------------------------- */
+.footerContainer {
+    background-color: #29a19c;
+    padding-bottom: 2%;
+}
+
+
+.fccInside {
+    /* border: 1px solid rebeccapurple; */
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+.fccItems span,
+.fccItems li {
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    font-size: 1.3rem;
+    letter-spacing: 1.4px;
+
+}
+
+
+.fccItems {
+    display: flex;
+}
+
+
+.fccItemsLeft {
+    /* border: 1px solid white; */
+    width: 45%;
+}
+
+.fccItemsRight {
+    /* border: 1px solid red; */
+    width: 55%;
+    display: flex;
+}
+
+
+.fccItemsRightInfo {
+    /* border: 1px solid red; */
+    width: 25%;
+    margin-left: 25%;
+}
+
+.fccItemsRightInfo span {
+    font-size: 2rem;
+}
+
+.fccItemsRightContact {
+    /* border: 1px solid yellow; */
+    margin-left: 25%;
+}
+
+.fccItemsRightContact span {
+    font-size: 2rem;
+}
+
+.fccFirstli {
+    margin-top: 20%;
+}
+
+
+.pushli {
+    margin-top: 4%;
+}
+
+
+
+.fccMenu {
+    padding-top: 10%;
+    display: flex;
+}
+
+.fccMenuItems {
+    display: flex;
+    width: 30%;
+
+}
+
+.fccMenulogos {
+    display: flex;
+    width: 10%;
+    margin-left: 50%;
+
+}
+
+.fccMenulogos img {
+    padding-right: 50%;
+}
+
+.fccMenu li {
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    padding-right: 20%;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:768px) {
+
+    .footerContainer {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+
+    .fccItems {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fccMenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fccMenuItems {
+        display: flex;
+        flex-direction: column;
+    }
+}

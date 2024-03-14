@@ -43,14 +43,63 @@
     font-size: 60px;
 }
 
+.topbar {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+}
 
+.threeLinestopbar {
+    /* border: 1px solid white; */
+    width: 40%;
+}
 
+.topbarlogo {
+    /* border: 1px solid blue; */
+    width: 60%;
+    text-align: end;
 
+}
+
+.topbarlogo img {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    width: 50%;
+}
 
 
 .smallNavbar {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

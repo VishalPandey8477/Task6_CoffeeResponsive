@@ -1113,7 +1113,7 @@ body {
     }
 
     .crcHeading {
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         font-size: 4rem;
         text-align: center;
         width: 100%;
@@ -1657,21 +1657,82 @@ body {
 
     .footerContainer {
         width: 100%;
-        padding-bottom: 100%;
+        padding-bottom: 60%;
     }
 
     .fccItems {
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
+        align-items: start;
+    }
+
+
+    .fccItemsRight {
+
+        /* border: 1px solid rgb(255, 255, 255); */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15%;
+    }
+
+    .fccItemsRightInfo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .fccItemsRightInfo span {
+        font-size: 1.4rem;
+    }
+
+    .fccItemsRightContact {
+        /* border: 1px solid blue; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .fccItemsRightContact span {
+        font-size: 1.4rem;
+    }
+
+
+    .fccItems li {
+        font-family: "Montserrat", sans-serif;
+        list-style-type: none;
+        font-size: 1rem;
+        letter-spacing: 1.4px;
+
     }
 
     .fccMenu {
         display: flex;
-        flex-direction: column;
     }
 
     .fccMenuItems {
+        font-size: 1rem;
         display: flex;
         flex-direction: column;
+    }
+
+    .fccMenuItems li {
+        font-family: "Montserrat", sans-serif;
+        list-style-type: none;
+        font-size: 1rem;
+        letter-spacing: 1.4px;
+        padding-top: 5%;
+    }
+
+
+    .fccMenulogos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fccMenulogos img {
+        padding-top: 35%;
     }
 }

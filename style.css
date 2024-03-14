@@ -43,43 +43,14 @@
     font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px
-    }
 
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
+
 
 
 
 .smallNavbar {
     display: none;
 }
-
-.topbar {
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-between;
-}
-
-.topbarLogo {
-    /* border: 1px solid green; */
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-
-.topbar img {
-    padding-top: 5%;
-    width: 40%;
-}
-
-
 
 
 

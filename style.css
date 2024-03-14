@@ -63,9 +63,9 @@
 }
 
 .topbarlogo img {
-    position: fixed;
-    top: 1%;
-    right: 1%;
+    position: absolute;
+    top: 15%;
+    right: 2%;
     width: 50%;
 }
 

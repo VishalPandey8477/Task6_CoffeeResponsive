@@ -77,7 +77,9 @@
 
 
 
-
+.ctcImage {
+    display: none;
+}
 
 
 
@@ -255,6 +257,10 @@ body {
         display: block;
     }
 
+    .ctcImage {
+        display: block;
+    }
+
     .navBar {
         display: none;
     }
@@ -268,7 +274,8 @@ body {
         margin: 0;
         padding: 0;
         width: 100%;
-        background-position: bottom, right bottom 15px;
+        background-image: url(images/first_bottom.png);
+        background-position: bottom;
         padding-bottom: 20%;
 
     }
@@ -280,13 +287,24 @@ body {
         display: none;
     }
 
+    .ctcImage {
+        padding-top: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ctcImage img {
+        width: 95%;
+    }
 
     .ctcContent {
         margin: 0;
         padding: 0;
         padding-left: 4%;
         margin-top: 5%;
-        width: 50%;
+        width: 90%;
     }
 
     .ctcContent span {
@@ -332,6 +350,7 @@ body {
         margin: 0;
         margin-top: 2%;
         padding-left: 4%;
+        text-align: center;
     }
 
     .ctcButton button {
